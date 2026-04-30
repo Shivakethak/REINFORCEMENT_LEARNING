@@ -52,19 +52,6 @@ ENV_INFO: dict = {
         "expected_convergence": "200–500 episodes",
         "reward_range": (-500, -50),
     },
-    "LunarLander-v3": {
-        "desc": "Safely land a spacecraft on the moon pad.",
-        "algorithms": ["DQN", "Double DQN"],
-        "success_threshold": 200,
-        "color": "#ff0055",
-        "pill": "pill-pink",
-        "state_type": "continuous",
-        "n_states": None,
-        "n_actions": 4,
-        "good_avg_reward": 200,
-        "expected_convergence": "400–700 episodes",
-        "reward_range": (-300, 300),
-    },
 }
 
 # ---------------------------------------------------------------------------
